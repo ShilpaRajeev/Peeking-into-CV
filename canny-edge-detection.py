@@ -7,6 +7,20 @@
 
  """
 
+# edge detection is a technique used to identify the edges found in an image. We can define an edge to be a change in pixel or image intensity.
+
+"""
+One of the most widely used ones is known as Canny edge detection, which is a multi-step edge detection technique that can detect edges by following these steps:
+
+1. Gaussian smoothing
+2. Calculating the gradient intensity
+3. Non-maximum suppression
+4. Double thresholding
+5. Edge tracking
+
+"""
+# Note: Other edge detection algorithms include Sobel, Fuzzy logic, etc.
+
 import cv2
 import matplotlib.pyplot as plt
 
